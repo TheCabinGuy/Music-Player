@@ -1,0 +1,22 @@
+{
+  "name": "@music-player/root",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCabinGuy/Music-Player.git"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "lint": "eslint --fix src/**/*.ts && prettier --write ./src/**"
+  },
+  "author": "Alistair",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
