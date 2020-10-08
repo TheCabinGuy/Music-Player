@@ -1,0 +1,5 @@
+**/lib/**
+**/node_modules/**
+
+# ESLint config files are JS source files nonetheless
+!**/.eslintrc.js

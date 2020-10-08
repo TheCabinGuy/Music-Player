@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Music Player Renders correctly 1`] = `
+<audio>
+  Audio isn't enabled on this device
+</audio>
+`;

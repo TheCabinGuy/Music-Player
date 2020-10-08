@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Song Picture Renders correctly 1`] = `
+<div
+  class="MuiContainer-root MuiContainer-maxWidthMd"
+>
+  <div
+    class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiCardMedia-root makeStyles-media-2"
+      style="background-image: url(aRandomPicture.com/picture);"
+      title="Song 1"
+    />
+    <div
+      class="MuiCardContent-root makeStyles-content-3"
+    >
+      <p
+        class="MuiTypography-root makeStyles-title-4 MuiTypography-body1"
+      >
+        Song 1
+      </p>
+      <button
+        aria-controls="menu"
+        aria-haspopup="true"
+        class="MuiButtonBase-root MuiIconButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
